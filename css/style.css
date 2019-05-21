@@ -1,4 +1,54 @@
 html{
     font-size: 18px;
+}
+body{
+    margin: 0;
+}
+h1{
+    padding: 1rem;
+    text-align: center;
     
+}
+.logo{
+    max-width: 200px;
+}
+h2, h3, h5{
+    text-align: center;
+    color: #a3c92d;
+    font-size: 1rem;
+}
+.cont-servicios{
+    max-width: 180px;
+    padding: 1rem;
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    border: none;
+}
+.btn-primary{
+    background: #a3c92d;
+    border: #a3c92d;
+    border-radius: 25px;
+}
+.agencias h3, h4{
+    color: white;
+    font-size: 1rem;
+
+}
+.agencias{
+    background: #a3c92d;
+    color: white
+}
+.agencias .btn-primary{
+    background: #2e3d02;
+    margin-bottom: 1rem;
 }
