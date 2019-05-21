@@ -46,7 +46,8 @@ h2, h3, h5{
 }
 .agencias{
     background: #a3c92d;
-    color: white
+    color: white;
+    padding: 1rem;
 }
 .agencias .btn-primary{
     background: #2e3d02;
