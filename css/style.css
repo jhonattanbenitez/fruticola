@@ -1,5 +1,6 @@
 html{
     font-size: 18px;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -9,8 +10,17 @@ h1{
     text-align: center;
     
 }
+.navbar-light .navbar-nav .nav-link {
+     color: #a3c92d;
+}
 .logo{
     max-width: 200px;
+}
+.manzana_verde{
+    display: none;
+}
+.manzana_roja{
+    display: none;
 }
 h2, h3, h5{
     text-align: center;
@@ -52,4 +62,44 @@ h2, h3, h5{
 .agencias .btn-primary{
     background: #2e3d02;
     margin-bottom: 1rem;
+}
+@media screen and (min-width: 778px){
+  .menu_container{
+      display: flex;
+      flex-direction: column;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 1rem;
+    margin: 0.5rem;
+}
+  .logo{
+      width: 120px;
+      height: 120px;
+  }
+  h2{
+      font-size: 1.70rem;
+  }
+  .mejores{
+      font-size: 1.25rem;
+  }
+  .titulo1{
+      display: flex;
+      padding: 1rem;
+  }
+  .manzana_verde{
+      display: block;
+      margin-top: 1rem;
+  }
+  .manzana_roja{
+      display: block;
+  }
+  .servicios{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  .container_historia{
+      display: flex;
+  }
+
 }

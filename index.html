@@ -16,34 +16,38 @@
 </head>
 <body>
         <!-- Menu -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="Images/LOGO_HEADER.png" width="60" height="60" alt="Fruticola" class="logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Historia</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" href="#">Nuestros Productos</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                    
-                  </ul>
-                 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light menu_container">
+                <div class="logo"><a class="navbar-brand" href="#"><img src="Images/LOGO_HEADER.png" width="60" height="60"
+                      alt="Fruticola" class="logo"></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button></div>
+                
+                <div class="main_menu">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#historia">Historia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#productos">Nuestros Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                      </li>
+                
+                    </ul>
+                
+                  </div>
                 </div>
-              </nav>
+                </nav>
 
         <!-- Slider -->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -67,9 +71,12 @@
                   <span class="sr-only">Next</span>
                 </a>
         </div>
-    <section class="container">
-        <h2>Nuestro propósito como compañía es brindar bienestar y servicio de la</h2>
-        <h3>mano de los mejores</h3>
+    <section class="container titulo1">
+        <img src="/Images/MANZANA_VERDE.jpg" alt="MANZANA_VERDE" width="200" height="200" class="manzana_verde">
+        <h2>Nuestro propósito como compañía <br>es brindar bienestar y servicio de la <br> 
+          mano de los mejores</h2>
+        <img src="/Images/manzana_2.jpg" alt="" width="200" height="200" class="manzana_roja">
+        
     </section>
     <section>
         <div class="container servicios">
@@ -79,7 +86,7 @@
             </div>
             <div>
                     <img src="Images/compromiso.jpg" alt="compromiso" class="cont-servicios">
-                    <h3>Compromiso</h3>
+             <h3>Compromiso</h3>
                 </div>
             <div>
                     <img src="Images/servicio.jpg" alt="servicio" class="cont-servicios">
@@ -88,25 +95,37 @@
 
         </div>
     </section>
-    <section class="container">
-        <h2>Los mejores desde 1978</h2>
-        <p>Somos una empresa colombiana dedicada desde la década de los 70's a importar DE LA MANO DE LOS MEJORES y a comercializar todas nuestras frutas con pasión</p>
-        <p>Con presencia en 10 ciudades, contamos con nuestra oficina principan en la ciudad de Cali y agencias en Bogotá, Medellín, Pereira, Ibagué, Barranquilla, Cartagena, Santa Marta, Maicao, y Cucúta, 
+    <section class="container_historia" id="historia">
+
+        <div class="frutas_izq"><img src="/Images/PERA.jpg" alt="pera" height="200">
+          <img src="/Images/KIWI.jpg" alt="kiwi" height="200">
+          <img src="/Images/gala_3.jpg" alt="gala_3" height="200"></div>
+        <div class="bloque_text_historia">
+          <h2>Los mejores desde 1978</h2>
+          <p>Somos una empresa colombiana dedicada desde la década de los 70's a importar DE LA MANO DE LOS MEJORES y a
+            comercializar todas nuestras frutas con pasión</p>
+          <p>Con presencia en 10 ciudades, contamos con nuestra oficina principan en la ciudad de Cali y agencias en Bogotá,
+            Medellín, Pereira, Ibagué, Barranquilla, Cartagena, Santa Marta, Maicao, y Cucúta,
             las cuales son las encargadas del abastecimiento de las plazas de mercado y supermercados.
-        </p>
-        <p>
-            Contamos con aliados estratégicos en Chile, Estados Unidos, Argentina, Perú y Europa, para la importación de nuestro portafolio de frutas manzana,
+          </p>
+          <p>
+            Contamos con aliados estratégicos en Chile, Estados Unidos, Argentina, Perú y Europa, para la importación de nuestro
+            portafolio de frutas manzana,
             pera, uva, kiwi, durazno, nectarín, ciruela, arándanos y cerezas.
-        </p>
-        <img src="Images/pastormelo.png" alt="Pastor Melo">
-        <p>
+          </p>
+          <img src="Images/pastormelo.png" alt="Pastor Melo">
+          <p>
             En memoria del fundador de Frutícola de Colombia el Sr. Pastor Melo Otálora
-        </p>
-        <p>(1932-2009)</p>
-        <p>Somos más que una empresa, somos una familia y creemos en la unión para el cumplimiento de nuestro propósito</p>
+          </p>
+          <p>(1932-2009)</p>
+          <p>Somos más que una empresa, somos una familia y creemos en la unión para el cumplimiento de nuestro propósito</p>
+        </div>
+        <div class="frutas_der">
+          <img src="/Images/frutas.jpg" alt="frutas" class="frutas" height="600">
+        </div>
     </section>
     <!-- Slider Productos -->
-    <h3>Nuestros Productos</h3>
+    <h3 id="productos">Nuestros Productos</h3>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -137,7 +156,7 @@
               <span class="sr-only">Next</span>
             </a>
     </div>
-    <section class="container">
+    <section class="container" id="blog">
             <div class="card" style="width: 18rem;">
                     <img src="Images/RECETAS.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -153,7 +172,7 @@
                     </div>
             </div>
     </section>
-    <section class="agencias">
+    <section class="agencias" id="contacto">
         <h3>Conoce todas nuestras agencias</h3>
         <div>
             <h4>Cali</h4>
