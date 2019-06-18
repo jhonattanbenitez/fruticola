@@ -35,17 +35,31 @@ h1{
 .manzana_roja{
     display: none;
 }
-h2, h3, h5{
+h2{ 
+    font-family: 'Just Another Hand', cursive;
+    font-size: 2.20rem;
     text-align: center;
     color: #a3c92d;
-    font-size: 1.50rem;
-    font-family: 'Kalam', cursive;
+    margin: 2rem;
+}
+h3, h5{
+    font-family: 'Just Another Hand', cursive;
+    text-align: center !important;
+    color: #a3c92d;
     font-weight: 400;
+    font-size: 2rem;
+   
 }
 h4{
-    font-family: 'Kalam', cursive;
-    font-size: 1.25rem;
-    font-weight: bold;
+    
+    font-size: 1.50rem !important;
+    
+}
+.toggle-services{
+    
+    display: flex;
+    justify-content: center;
+    
 }
 .cont-servicios{
     max-width: 200px;
@@ -131,14 +145,15 @@ h4{
       height: 120px;
   }
   h2{
-      font-size: 1.70rem;
+      font-size: 3.50rem;
   }
-  .mejores{
-      font-size: 1.25rem;
+  h3{
+      font-size: 3rem !important;
   }
-  .titulo1{
+     .titulo1{
       display: flex;
       padding: 1rem;
+      
   }
   .manzana_verde{
       display: block;
