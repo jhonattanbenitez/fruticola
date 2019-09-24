@@ -26,6 +26,9 @@ h1{
       flex-direction: row;
       justify-content: space-around;
 }
+.main_slider{
+    width: 100%;
+}
 .titulo1{
     margin-top: 2rem;
 }
