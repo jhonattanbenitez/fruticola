@@ -71,11 +71,15 @@ h4{
     max-height: 200px;
 }
 .img-container{
+    
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
     
+}
+.svg_services{
+    height: 250px;
 }
 .servicios{
   margin: 1rem;
