@@ -261,6 +261,13 @@ h4{
       margin: 2rem;
       
   }
+  .contenedor_slider{
+    width: 100%;
+    align-self: center;
+    
+    
+}
+
  
   .blog_section{
       display: flex;
