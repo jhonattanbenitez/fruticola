@@ -277,7 +277,7 @@
           <div class="carousel-inner">
             <div class="contenedor_productos">
               <div class="carousel-item active">
-                <img src="Images/Pres_Indivdual/arandano1.png" class="d-block w-100" alt="...">
+                <img src="Images/fotos400x400/arandanos.png" class="d-block w-100" alt="...">
               </div>
               <!-- <div class="carousel-item">
                 <img src="Images/Productos/BANDEJA_MIX.jpg" class="d-block w-100" alt="...">
@@ -322,30 +322,30 @@
                 <img src="Images/FOTOSRP/BOLSA_GALAX5.jpg" class="d-block w-100" alt="...">
               </div> -->
               <div class="carousel-item">
-                <img src="Images/Pres_Indivdual/arandano2.png" class="d-block w-100" alt="...">
+                <img src="Images/fotos400x400/ciruela.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="Images/Pres_Indivdual/arandano3.png" class="d-block w-100" alt="...">
+                <img src="Images/fotos400x400/durazno.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="Images/Pres_Indivdual/arandanos.png" class="d-block w-100" alt="...">
+                <img src="Images/fotos400x400/kiwi.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="Images/Pres_Indivdual/ciruela.png" class="d-block w-100" alt="...">
+                <img src="Images/fotos400x400/manzana verde.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="Images/Pres_Indivdual/ciruela_completa.png" class="d-block w-100" alt="...">
+                <img src="Images/fotos400x400/manzana.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="Images/Pres_Indivdual/ciruela_mitad.png" class="d-block w-100" alt="...">
+                <img src="Images/fotos400x400/pera.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="Images/Pres_Indivdual/durazno.png" class="d-block w-100" alt="...">
+                <img src="Images/fotos400x400/uva roja.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="Images/Pres_Indivdual/durazno_mitad.png" class="d-block w-100" alt="...">
+                <img src="Images/fotos400x400/uva verde.png" class="d-block w-100" alt="...">
               </div>
-              <div class="carousel-item">
+            <!--   <div class="carousel-item">
                 <img src="Images/Pres_Indivdual/kiwi.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
@@ -380,7 +380,7 @@
               </div>
               <div class="carousel-item">
                 <img src="Images/Pres_Indivdual/uva_verde_vertical.png" class="d-block w-100" alt="...">
-              </div>
+              </div> -->
               <!-- <div class="carousel-item"> vieja sección de frutas
                 <img src="Images/PRODJPG/BANDEJA_6VERDEROJA.jpg" class="d-block w-100" alt="...">
               </div>
@@ -579,14 +579,18 @@
               class="fab fa-instagram"> @fruticola_de_colombia</i></a>
         </div>
       </div>
-      <form>
+      <form method="POST" action="enviar.php">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" class="form-control name-field" id="exampleFormControlInput1" placeholder="Nombre y Apellido" required="required">
+        </div>
         <div class="form-group">
           <label for="exampleFormControlInput1">Dirección de correo electrónico</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required="required">
         </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" required="required" rows="3"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
